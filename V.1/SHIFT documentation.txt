@@ -1,0 +1,45 @@
+SHIFT documentation
+
+============================
+
+Comments:
+
+# [comment]
+
+Print String:
+
+: ["string"]
+
+Simple Arithmetic:
+
+[num] [operation] [num]
+
+Int Variables:
+
+[variable name] = [num]
+[variable name] = [num] [operation] [num]
+
+Str Variables:
+
+[String name] = "[string]"
+
+Display Variable:
+
+[variable name]
+
+Define Function:
+
+[func name] } ["string"]
+
+Call Function:
+
+? [func name]
+
+Compile a program: 
+In the command line type( while being in the same directory):
+
+Windows:
+python shift.py program.st
+
+Linux:
+python3 shift.py program.st
